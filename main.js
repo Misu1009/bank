@@ -3,13 +3,13 @@ const {Web3} = require("web3");
 const BankContractJSON = require("./build/contracts/Bank.json");
 
 // Connect to the local blockchain (Ganache)
-const web3 = new Web3("http://127.0.0.1:8545"); // URL Ganache
+const web3 = new Web3("http://127.0.0.1:xxxx"); // URL Ganache
 
 // Function to get deployed contract address
 function getContractAddress() {
   // If you know the contract address, you can return it directly
   // Otherwise, you might need to get it from deployment records
-  return "0xAA57688731A29D6613701d0329A0B99A098d92c4"; // Replace with your contract address
+  return "ADDRESS OF DEPLOYED SMART CONTRACT"; // Replace with your contract address
 }
 
 // Utility function to get accounts from Ganache
